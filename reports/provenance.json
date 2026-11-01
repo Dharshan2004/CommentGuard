@@ -1,0 +1,26 @@
+{
+  "test-comparison.json": {
+    "source": "results/test-baseline-comparison/metrics.json",
+    "sha256": "ffb74ec65a14ea1f30b12c55358345279b8b5a28e002c60a60448868571035bd"
+  },
+  "selected-test.json": {
+    "source": "results/test-main5000-step4000/metrics.json",
+    "sha256": "88e0b37f7766f3e5bbe9c7b181846f0117b66d6f95c6d102043423162d263401"
+  },
+  "validation-comparison.json": {
+    "source": "results/iterative-selection/metrics.json",
+    "sha256": "e0ef7d18561cbd8a51b751b7914542573007f7ca71c3e269612469087716c246"
+  },
+  "frozen-model.json": {
+    "source": "results/iterative-selection/SELECTED_CONFIG.json",
+    "sha256": "a1964a8f8ead45a5210ee9eb6d1582af4a343e91509c09117092edc6da74dfc9"
+  },
+  "frozen-base.json": {
+    "source": "results/test-base-labels/frozen_config.json",
+    "sha256": "a8c32db680df38dc3731747a6ae8f1d8b35640ee6040a77244c0276e79ba5674"
+  },
+  "frozen-logistic.json": {
+    "source": "results/test-logistic-main5000/frozen_config.json",
+    "sha256": "04b23ac6adcd0ee16a3aaf4c00b9f744e0dee5cf98fa8ab4e28e2d676971a01e"
+  }
+}

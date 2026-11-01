@@ -1,0 +1,21 @@
+{
+  "adapter": "main5000-step4000",
+  "threshold": 0.4073334336280823,
+  "split": "test",
+  "n": 3000,
+  "positives": 239,
+  "precision": 0.6415929203539823,
+  "recall": 0.606694560669456,
+  "f1": 0.6236559139784946,
+  "macro_f1": 0.7960194655709998,
+  "tn": 2680,
+  "fp": 81,
+  "fn": 94,
+  "tp": 145,
+  "accuracy": 0.9416666666666667,
+  "average_precision": 0.6808251901670902,
+  "truncated": 0,
+  "frozen_config_sha256": "a1964a8f8ead45a5210ee9eb6d1582af4a343e91509c09117092edc6da74dfc9",
+  "scores_sha256": "706c9a93cda66859ec9628a28502aa6c2057fc05c634537d761429d605d7217d",
+  "threshold_fitted_on_test": false
+}

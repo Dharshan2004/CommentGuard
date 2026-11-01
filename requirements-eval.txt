@@ -1,0 +1,5 @@
+# Versions used with Python 3.13 on Apple Silicon.
+mlx==0.32.4
+mlx-lm==0.32.2
+scikit-learn==1.7.1
+transformers==5.5.0

@@ -1,0 +1,14 @@
+{
+  "status": "proposed; not run or validated in Studio",
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "backend": "MLX",
+  "method": "LoRA on a quantized base model",
+  "rank": 8,
+  "learning_rate": 0.0001,
+  "batch_size": 1,
+  "max_sequence_length": 512,
+  "smoke_optimizer_steps": 30,
+  "main_epochs": 1,
+  "assistant_only_loss": true,
+  "note": "Confirm controls and masking support in the installed Studio MLX backend. Reserve prompt and answer space when truncating comments."
+}

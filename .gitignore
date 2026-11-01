@@ -1,0 +1,26 @@
+# Local environments and caches
+.venv*/
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.env
+.env.*
+!.env.example
+work/
+# Generated comments, split membership, weights, and detailed experiment outputs
+/data/prepared/
+/data/evaluation/
+/data/manifests/*.jsonl
+/adapters/
+/results/
+*.safetensors
+*.gguf
+*.joblib
+*.npz
+# Personal worklogs must stay in the parent directory
+*WORKLOG*
+*worklog*
+
+# Historical notes retain local context; current docs are the public interface.
+/docs/history/

@@ -1,0 +1,23 @@
+{
+  "dataset": "google/civil_comments",
+  "revision": "f2970eb3a55777454c94069077cc8d9b5866312d",
+  "seed": 42,
+  "rows": 5000,
+  "toxic": 1250,
+  "non_toxic": 3750,
+  "unique_rows": 5000,
+  "retained_pilot002": 2000,
+  "added_toxic": 750,
+  "added_non_toxic": 2250,
+  "sampling": "Retain all pilot-002; random.Random(42) sample 750 additional positives then 2250 negatives; shuffle",
+  "label_rule": "toxicity >= 0.5",
+  "heldout_full_source_hash_overlap": 0,
+  "existing_jsonl_files_unchanged": true,
+  "heldout_use": "Text hashes for exclusion only; no held-out labels or error mining",
+  "truncation": "None during preparation; use context 1024 in Studio",
+  "sha256": {
+    "prepared/main5000_mix25_train.jsonl": "d284676dc03894edaf7406f1f0ffe084542d43e3914d643ba83d794a2efb97fa",
+    "evaluation/main5000_mix25_train.jsonl": "e6d5ae2790f22967b1657c63eefa7acfedc6b9b9bcb08841a8358bd9c88cc841",
+    "manifests/main5000_mix25_train_rows.jsonl": "e7f6bc6a8302f1d2b97541860ef0360f5ada7de5e300c177edee2fa26e8ba3cc"
+  }
+}

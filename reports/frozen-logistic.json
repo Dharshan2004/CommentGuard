@@ -1,0 +1,34 @@
+{
+  "model": "tfidf-logistic",
+  "threshold": 0.48946725832181476,
+  "comparison": "score >= threshold",
+  "objective": "maximize precision subject to validation recall >=0.60; tie-break recall then threshold",
+  "train_n": 5000,
+  "train_positive": 1250,
+  "train_sha256": "e6d5ae2790f22967b1657c63eefa7acfedc6b9b9bcb08841a8358bd9c88cc841",
+  "validation_sha256": "0d4caaec56212b5dfed462d789c8251d49cb511442fc9f05e2773a76876cccc7",
+  "model_sha256": "7d997b292a4c5e07033f36aa6c86d6bf084ff66035ae48f2d324ba6621b6115e",
+  "vectorizer": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_features": 50000,
+    "sublinear_tf": true
+  },
+  "classifier": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 1000,
+    "random_state": 42
+  },
+  "input": "Full original comment text; vocabulary and IDF fitted on training only",
+  "fit_seconds": 0.42126954199920874,
+  "dataset_revision": "f2970eb3a55777454c94069077cc8d9b5866312d",
+  "packages": {
+    "scikit-learn": "1.7.1",
+    "numpy": "2.5.4",
+    "joblib": "1.6.0"
+  }
+}

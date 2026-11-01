@@ -1,0 +1,9 @@
+{
+  "repo_id": "dharshannn/CommentGuard-Qwen3-4B-MLX-LoRA",
+  "url": "https://huggingface.co/dharshannn/CommentGuard-Qwen3-4B-MLX-LoRA",
+  "revision": "ef21f5d40dcfb7fb7268b6f3101711281422a2d0",
+  "adapter_sha256": "43a29b0b731b257f4c728eb1888f4200fe6fa8b4db79f00883208cdd223f06f6",
+  "visibility": "public",
+  "format": "native MLX LoRA adapter",
+  "hosted_inference": false
+}

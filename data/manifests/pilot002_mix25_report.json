@@ -1,0 +1,25 @@
+{
+  "dataset": "google/civil_comments",
+  "revision": "f2970eb3a55777454c94069077cc8d9b5866312d",
+  "seed": 42,
+  "sampling": "Python random.Random(42): sample 340 source positives, sample 1500 pilot negatives, shuffle",
+  "label_rule": "toxicity >= 0.5",
+  "rows": 2000,
+  "toxic": 500,
+  "non_toxic": 1500,
+  "retained_original_positives": 160,
+  "additional_unique_positives": 340,
+  "retained_original_negatives": 1500,
+  "eligible_new_positive_pool": 141781,
+  "unique_rows": 2000,
+  "heldout_full_source_hash_overlap": 0,
+  "heldout_files_unchanged": true,
+  "heldout_use": "Text hashes only; no held-out labels, evaluation or error mining",
+  "truncation": "None; use the existing 1024-token training/inference policy",
+  "sha256": {
+    "prepared/pilot002_mix25_train.jsonl": "c291521c37a7bbc81cde47aa8fe5b9e0c99fd4d2b27a77f3912cf32b02fd2c4d",
+    "evaluation/pilot002_mix25_train.jsonl": "2b2856091681e59529567898c60e50fce7f3e1513a113cc3143be0e11ba85c95",
+    "manifests/pilot002_mix25_train_rows.jsonl": "9e2085f46409afeb2772111fbf0157662b3c11e143db05fd0076e7921802b419"
+  },
+  "checks": "Counts, unique hashes, lineage, label consistency, messages schema and held-out exclusion passed"
+}
